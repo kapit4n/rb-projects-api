@@ -10,6 +10,9 @@ application up and running.
 # create new model
 - rails g model Todo title:string created_by:string
 
+# run migrations
+- rake db:migrate
+
 # generate new controller
 - rails g controller Todos
 - rails g controller Items
